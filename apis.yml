@@ -1,8 +1,26 @@
 aid: mission-lane
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mission-lane.png
 name: Mission Lane
-description: 'Mission Lane is a company surfaced as a portfolio company of qed-investors and added to
-  the API Evangelist network as a stub for enrichment. Sector: credit. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Mission Lane is a consumer fintech founded in 2018 that offers the Mission
+  Lane Visa credit card (issued by WebBank) to help millions of Americans with limited
+  or rebuilding credit gain access to transparent, fair credit. Operating as a remote-first
+  company backed by QED Investors, it combines modern data science and machine-learning
+  underwriting with the discipline of an established financial institution, and partners
+  with Plaid for open-finance connectivity. Mission Lane provides a mobile app and
+  a web account dashboard for cardholders but does not publish a public developer API,
+  OpenAPI specification, or partner API program; its engineering surface (BentoML model
+  services, MLOps tooling) is internal.'
 url: https://raw.githubusercontent.com/api-evangelist/mission-lane/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Credit
+- Credit Cards
+- Fintech
+- Consumer Finance
+- Financial Services
+- Lending
+- Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: http://missionlane.com
+- type: Support
+  url: https://support.missionlane.com/hc/en-us
+- type: Blog
+  url: https://medium.com/mission-lane-tech-blog
+- type: GitHubOrganization
+  url: https://github.com/missionlane
+- type: Login
+  url: https://dashboard.missionlane.com
+- type: TermsOfService
+  url: https://www.missionlane.com/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.missionlane.com/legal/privacy-policy
+- type: DomainSecurity
+  url: security/mission-lane-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
